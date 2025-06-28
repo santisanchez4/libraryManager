@@ -20,7 +20,6 @@ public class Main {
                     System.out.println("Opción inválida. Intente nuevamente.");
                     continue;
                 }
-
                 switch (option) {
                     case ADD_BOOK: {
                         System.out.print("Título: ");

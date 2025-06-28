@@ -1,5 +1,4 @@
 package models;
-
 import java.util.Iterator;
 import java.util.LinkedList;
 
@@ -31,9 +30,8 @@ public class Library {
                 iterator.remove();
                 System.out.println("Libro liminado: " + book);
                 return;
-            }
-            
-            System.out.println("No se encontró un libro con ese título.");
+            } 
+            System.out.println("No se encontró ningún libro con el título: \"" + title + "\".");;
         }
     }
 
@@ -69,6 +67,5 @@ public class Library {
     if (!found) {
         System.out.println("No se encontraron libros del autor: " + authorQuery);
     }
-
-}
+    }
 }
